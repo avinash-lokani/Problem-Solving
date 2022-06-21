@@ -7,6 +7,7 @@ public class AddItem {
     static void addAnyItem(Map<String, ItemDetails> items) {
         Scanner sc = new Scanner(System.in);
 
+        // get the details of the item..
 
         System.out.println("Give the Name of the item");
         String itemName = sc.next();
