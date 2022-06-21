@@ -1,5 +1,8 @@
 package com.ecommerce.v1;
 
+// Data Representation and Abstraction
+
+
 public class ItemDetails {
 
     String description;

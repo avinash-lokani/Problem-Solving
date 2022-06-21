@@ -3,11 +3,13 @@ package com.ecommerce.v1;
 import java.util.Map;
 import java.util.Scanner;
 
+//  decomposition - subproblem - AddItem
+
 public class AddItem {
     static void addAnyItem(Map<String, ItemDetails> items) {
         Scanner sc = new Scanner(System.in);
 
-        // get the details of the item..
+        // same patterns for adding every item
 
         System.out.println("Give the Name of the item");
         String itemName = sc.next();

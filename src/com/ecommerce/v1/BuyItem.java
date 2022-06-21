@@ -3,8 +3,11 @@ package com.ecommerce.v1;
 import java.util.Map;
 import java.util.Scanner;
 
+
 import static com.ecommerce.v1.Home.cartList;
 import static com.ecommerce.v1.Home.cartValue;
+
+// decomposition - subproblem - BuyItem
 
 public class BuyItem {
     static void buyAnyItem(Map<String, ItemDetails> items) {

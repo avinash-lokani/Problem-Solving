@@ -2,6 +2,8 @@ package com.ecommerce.v1;
 
 import java.util.Map;
 
+// decomposition - subproblem - ListItems
+
 public class ItemsList {
     static void listOfItems(Map<String, ItemDetails> items) {
 
