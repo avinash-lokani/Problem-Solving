@@ -31,7 +31,6 @@ public class cart {
 
     public void buyCart(){
         System.out.println("generating bill");
-
         System.out.println("products = " + constants.getCartList());
         System.out.println("total value =" + constants.getCartValue());
 

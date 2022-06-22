@@ -23,7 +23,6 @@ public class App {
         do{
             Scanner sc = new Scanner(System.in);
 
-
             System.out.println("to add any product -- press 1");
             System.out.println("to buy any product -- press 2");
             System.out.println("want to stop running press y/Y");
@@ -66,8 +65,6 @@ public class App {
                         break;
                     }
                 }while(true);
-
-
             }
             else if(repeat == 'y' || repeat == 'Y'){
                 break;
