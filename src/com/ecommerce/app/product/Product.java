@@ -4,6 +4,9 @@ public class Product {
 
     private Long id;
     private String name;
+
+
+
     private int cost;
 
     public Long getId() {
@@ -39,6 +42,12 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Product(String name, int cost, int qty) {
+        this.name = name;
+        this.cost = cost;
+        this.qty = qty;
     }
 
     public Product(Long id, String name, int cost, int qty) {
