@@ -1,7 +1,8 @@
 package com.ecommerce.app.constants;
 
 public class Constants {
-    public static final String TO_SEARCH = "to search for any product type search";
+    public static final String TO_SEARCH = "to search by name for any product -- press 3";
+    public static final String ID_SEARCH = "to search by Id for any product -- press 4";
     public static final String ADD_PRODUCT = "to add any product -- press 1";
     public static final String BUY_PRODUCT = "to buy any product -- press 2";
     public static final String STOP_PROCESS = "want to stop running press y/Y";

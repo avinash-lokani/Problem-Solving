@@ -40,6 +40,16 @@ public class Product {
         this.cost = cost;
         this.qty = qty;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Product product = (Product) obj;
+        if(product.getName().equals(this.getName())){
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return id + " " + name + " " + cost + " " + qty;

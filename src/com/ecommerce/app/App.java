@@ -19,50 +19,51 @@ public class App {
     private static CartService cartService = new CartService();
     private static ProductService productService = new ProductService();
     public static void main(String[] args){
+
         char repeat = 'n';
+
         do{
-            System.out.println(products);
-            System.out.println(Constants.TO_SEARCH + " by name");
-            String str = sc.next();
-            if(str.equals("search")){
-                System.out.println(Constants.NAME);
-                String name = sc.next();
-                productService.searchByName(name);
-            }
-            System.out.println(Constants.TO_SEARCH + " by id");
-            str = sc.next();
-            if(str.equals("search")){
-                System.out.println(Constants.ID);
-                Long id = sc.nextLong();
-                productService.searchById(id);
-            }
             System.out.println(Constants.ADD_PRODUCT);
             System.out.println(Constants.BUY_PRODUCT);
+            System.out.println(Constants.TO_SEARCH);
+            System.out.println(Constants.ID_SEARCH);
             System.out.println(Constants.STOP_PROCESS);
+            System.out.println(products);
             repeat = sc.next().charAt(0);
-            if(repeat == '1'){
-                System.out.println(Constants.NAME);
-                String productName = sc.next();
-                System.out.println(Constants.PRICE);
-                int price = sc.nextInt();
-                System.out.println(Constants.QUANTITY);
-                int qty = sc.nextInt();
-                productService.add(new Product(productName,price,qty));
+            switch (repeat){
+                case '1':
+                    System.out.println(Constants.NAME);
+                    String productName = sc.next();
+                    System.out.println(Constants.PRICE);
+                    int price = sc.nextInt();
+                    System.out.println(Constants.QUANTITY);
+                    int qty = sc.nextInt();
+                    productService.add(new Product(productName,price,qty));
+                    break;
+                case '2':
+                    cart();
+                    break;
+                case ('y'|'Y'):
+                    break;
+                case ('3'):
+                        System.out.println(Constants.NAME);
+                        String name = sc.next();
+                        productService.searchByName(name);
+                        break;
+                case ('4'):
+                    System.out.println(Constants.ID);
+                    Long id = sc.nextLong();
+                    productService.searchById(id);
+                    break;
+                default:
+                    break;
             }
-            else if(repeat == '2') {
-                cart();
-            }
-            else if(repeat == 'y' || repeat == 'Y'){
+            if(repeat == 'y'|| repeat =='Y')
                 break;
-            }
-            else{
-                continue;
-            }
         }while(true);
     }
 
     private static void cart() {
-        do{
             System.out.println(Constants.ADD);
             String str = sc.next().toLowerCase();
             if(str.equals("add")) {
@@ -78,12 +79,6 @@ public class App {
             else if(str.equals("buy")){
                 cartService.checkOut();
             }
-            System.out.println(Constants.STOP_PROCESS);
-            char flag = sc.next().charAt(0);
-            if(flag != 'y' || flag != 'Y'){
-                break;
-            }
-        }while(true);
     }
 
 }
