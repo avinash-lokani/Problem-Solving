@@ -1,46 +1,47 @@
 package com.ecommerce.app.model;
 
-import com.ecommerce.app.App;
-
-import java.util.List;
-
 public class Product {
-    public  void addProduct(com.ecommerce.app.product.Product product) {
-
-        List<com.ecommerce.app.product.Product> productList = App.getProducts();
-
-        if(productList.stream().filter(i -> i.getName().equals(product.getName())).toList() == null){
-            productList.add(new com.ecommerce.app.product.Product((long) (productList.size()+1),product.getName(),product.getCost(),product.getQty()));
-            App.setProducts(productList);
-        }
-        else{
-            productList.stream().filter(i -> i.getName().equals(product.getName())).forEach(i -> i.setQty(i.getQty() + 1));
-        }
-
+    private Long id;
+    private String name;
+    private int cost;
+    public Long getId() {
+        return id;
     }
-
-    public void searchProduct(String name) {
-        // linear Search
-        System.out.println(App.getProducts().stream().filter(i -> i.getName().equals(name)).toList());
+    public void setId(Long id) {
+        this.id = id;
     }
-
-    public void searchProductById(Long id) {
-        // Binary Search
-        int lowerBound = 0,higherBound = App.getProducts().size() - 1;
-        while(lowerBound <= higherBound){
-            int mid = (lowerBound+ higherBound)/2;
-            Long currentId = App.getProducts().get(mid).getId();
-            if(currentId == id){
-                System.out.println(App.getProducts().get(mid));
-                return;
-            }
-            else if(currentId > id){
-                higherBound = mid - 1;
-            }
-            else{
-                lowerBound = mid + 1;
-            }
-        }
-        System.out.println("the Product is not found");
+    private int qty;
+    public int getCost() {
+        return cost;
+    }
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+    public int getQty() {
+        return qty;
+    }
+    public void setQty(int qty) {
+        this.qty = qty;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+     public Product(String name, int cost, int qty) {
+        this.name = name;
+        this.cost = cost;
+        this.qty = qty;
+    }
+    public Product(Long id, String name, int cost, int qty) {
+        this.id = id;
+        this.name = name;
+        this.cost = cost;
+        this.qty = qty;
+    }
+    @Override
+    public String toString() {
+        return id + " " + name + " " + cost + " " + qty;
     }
 }

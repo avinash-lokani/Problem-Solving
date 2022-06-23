@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74daa30f-c30c-4162-9090-daaa5f7d0436" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/AddProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/product/Product.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/CartService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/model/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/model/AddProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/service/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/service/ProductService.java" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <module name="EcommerceV1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecommerce.app.model.*" />
+          <option name="PATTERN" value="com.ecommerce.app.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.com.ecommerce.app.App" />
       </list>
     </recent_temporary>
   </component>
