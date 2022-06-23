@@ -25,6 +25,29 @@ public class App {
         do{
             System.out.println(products);
 
+            System.out.println(constants.toSearch + " by name");
+            String str = sc.next();
+
+            if(str.equals("search")){
+
+                System.out.println(constants.name);
+                String name = sc.next();
+
+                ProductService productService = new ProductService();
+                productService.searchProduct(name);
+            }
+
+            System.out.println(constants.toSearch + " by id");
+            str = sc.next();
+
+            if(str.equals("search")){
+
+                System.out.println(constants.id);
+                Long id = sc.nextLong();
+
+                ProductService productService = new ProductService();
+                productService.searchProductById(id);
+            }
 
             System.out.println(constants.addProduct);
             System.out.println(constants.buyProduct);
@@ -47,7 +70,7 @@ public class App {
                 CartService cartService = new CartService();
                 do{
                     System.out.println(constants.add);
-                    String str = sc.next().toLowerCase();
+                    str = sc.next().toLowerCase();
                     if(str.equals("add")) {
                         System.out.println(constants.addToCart);
                         Long id = sc.nextLong();

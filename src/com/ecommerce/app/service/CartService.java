@@ -1,7 +1,6 @@
 package com.ecommerce.app.service;
 
 import com.ecommerce.app.App;
-import com.ecommerce.app.model.AddProduct;
 import com.ecommerce.app.model.Cart;
 
 public class CartService {
