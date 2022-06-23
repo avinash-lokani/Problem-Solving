@@ -1,3 +1,7 @@
 .idea
 out
+<<<<<<< HEAD
 *.iml
+=======
+EcommerceV1.iml
+>>>>>>> 4cce4bed8b172852368332f4f37898f419ed07b6

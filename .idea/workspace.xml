@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74daa30f-c30c-4162-9090-daaa5f7d0436" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EcommerceV1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/CartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EcommerceV1/com/ecommerce/app/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecommerce/app/constants/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecommerce/app/model/AddProduct.java" beforeDir="false" />
