@@ -14,3 +14,9 @@ class Product:
     def add_suggestions(self, new_product):
         if new_product not in self.suggested_products:
             self.suggested_products.append(new_product)
+
+    def delete_suggestion(self, new_product):
+        if new_product in self.suggested_products:
+            self.suggested_products.remove(new_product)
+        else:
+            print("unknown product")

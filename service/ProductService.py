@@ -1,4 +1,3 @@
-
 def addSuggestions(product, suggestion):
     product.add_suggestions(suggestion)
 
@@ -8,3 +7,6 @@ def listProducts(products):
     for product in products:
         print(product)
 
+
+def deleteProduct(product, suggestion):
+    product.delete_suggestion(suggestion)
