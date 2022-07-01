@@ -2,9 +2,10 @@ package com.example.app;
 
 import java.util.ArrayList;
 
+// Main..
 public class Main {
 
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Main main = new Main();
 
