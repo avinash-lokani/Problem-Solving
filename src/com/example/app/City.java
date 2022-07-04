@@ -4,6 +4,8 @@ import com.example.app.constants.Constants;
 
 import java.util.Scanner;
 
+// Main class..
+
 public class City {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
