@@ -1,8 +1,5 @@
 package com.example.app;
-
-
 import com.example.app.model.Post;
-
 public class User {
 
     public static void main(String[] args){
