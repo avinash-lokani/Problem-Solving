@@ -5,6 +5,8 @@ import com.example.app.model.Post;
 import java.util.ArrayList;
 import java.util.List;
 
+// Twitter class
+
 public class Twitter implements SocialMedia{
 
     private List<Post> posts = new ArrayList<>();

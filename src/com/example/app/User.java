@@ -1,5 +1,7 @@
 package com.example.app;
 import com.example.app.model.Post;
+
+// Human trafficking case study
 public class User {
 
     public static void main(String[] args){
