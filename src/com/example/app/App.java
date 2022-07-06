@@ -2,6 +2,7 @@ package com.example.app;
 
 import com.example.app.model.Data;
 
+// week 5 Earthquake prediction case study.
 
 public class App {
 
